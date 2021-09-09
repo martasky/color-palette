@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+#display_color {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+label {
+  align-self: center;
+  padding-left: 2rem;
+}
+
+#color_selector {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  width: min-content;
+  justify-content: space-around;
+  height: 400px;
+  padding: 2rem;
+  border: 2px solid black;
+}
+form {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+form,
+label,
+div {
+  font-family: "Montserrat", sans-serif;
+}
+
+/**************color wheel*************/
+body {
+  margin: 1rem;
+  margin-top: 3rem;
+}
+#interface-color-wheel label {
+  font-size: 1.5rem;
+  padding: 0;
+  padding-right: 1rem;
+}
+#display-colors {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 100%;
+  margin-top: 2rem;
+}
+#selector-wrapper {
+  margin-top: 1rem;
+}
+.colorBox {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+#color1,
+#color2,
+#color3,
+#color4,
+#color5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#color1 .colorBox {
+  background-color: black;
+}
+#color2 .colorBox {
+  background-color: black;
+}
+#color3 .colorBox {
+  background-color: black;
+}
+#color4 .colorBox {
+  background-color: black;
+}
+#color5 .colorBox {
+  background-color: black;
+}
+#operator {
+  padding: 0.5rem;
+}

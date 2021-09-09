@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="interface-color-wheel">
+      <h1>Choose Color Harmony</h1>
+
+      <select name="operator" id="operator">
+        <option value="analogous">Analogous</option>
+        <option value="monochromatic">Monochromatic</option>
+        <option value="triad">Triad</option>
+        <option value="complementary">Complementary</option>
+        <option value="compound">Compound</option>
+        <option value="shades">Shades</option>
+      </select>
+      <div id="selector-wrapper">
+        <label for="colorPicker">Select color:</label>
+        <input type="color" id="colorPicker" />
+      </div>
+
+      <div id="display-colors">
+        <div id="color1">
+          <div class="colorBox"></div>
+          <div class="hex">HEX: <span></span></div>
+          <div class="rgb">RGB: <span></span></div>
+          <div class="hsl">HSL: <span></span></div>
+        </div>
+        <div id="color2">
+          <div class="colorBox"></div>
+          <div class="hex">HEX: <span></span></div>
+          <div class="rgb">RGB: <span></span></div>
+          <div class="hsl">HSL: <span></span></div>
+        </div>
+        <div id="color3">
+          <div class="colorBox"></div>
+          <div class="hex">HEX: <span></span></div>
+          <div class="rgb">RGB: <span></span></div>
+          <div class="hsl">HSL: <span></span></div>
+        </div>
+        <div id="color4">
+          <div class="colorBox"></div>
+          <div class="hex">HEX: <span></span></div>
+          <div class="rgb">RGB: <span></span></div>
+          <div class="hsl">HSL: <span></span></div>
+        </div>
+        <div id="color5">
+          <div class="colorBox"></div>
+          <div class="hex">HEX: <span></span></div>
+          <div class="rgb">RGB: <span></span></div>
+          <div class="hsl">HSL: <span></span></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="color-wheel.js"></script>
+</html>
